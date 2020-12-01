@@ -1,24 +1,15 @@
-import logo from './logo.svg';
+import React, { Component, useState } from 'react';
+import Alert from 'react-bootstrap/Alert'
 import './App.css';
 
 function App() {
+  const show = useState(true);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <Alert show={show} variant="danger" dismissible>
+    <Alert.Heading> Oh snap! You got an error</Alert.Heading>
+    <p>Change this and that and try again</p>
+
+  </Alert>
   );
 }
 
