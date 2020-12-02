@@ -1,15 +1,25 @@
-import React, { Component, useState } from 'react';
-import Alert from 'react-bootstrap/Alert'
-import './App.css';
+import React, { Component} from 'react';
+import NavBar from './components/Header';
 
-function App() {
-  return (
-  <Alert variant="danger" >
-    <Alert.Heading> Oh snap! You got an error</Alert.Heading>
-    <p>Change this and that and try again</p>
+import './App.css'
+import { render } from '@testing-library/react';
 
-  </Alert>
-  );
+
+class App extends Component {
+  render() { 
+    console.log('loaded')
+    return ( 
+      <React.Fragment>
+       <header>
+        <div className="wrapper">
+         <h1> Travel Agency <span className="orange">.</span></h1>
+        <NavBar/>  
+        </div>
+      </header>
+
+      </React.Fragment>
+     );
+  }
 }
-
+ 
 export default App;
