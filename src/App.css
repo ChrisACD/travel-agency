@@ -6,3 +6,12 @@
 .App {
   text-align: center;
 }
+.wrapper{
+  font-size: 28px;
+}
+
+a.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  color: orange;
+}

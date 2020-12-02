@@ -11,10 +11,7 @@ class App extends Component {
     return ( 
       <React.Fragment>
        <header>
-        <div className="wrapper">
-         <h1> Travel Agency <span className="orange">.</span></h1>
-        <NavBar/>  
-        </div>
+           <NavBar/>  
       </header>
 
       </React.Fragment>
