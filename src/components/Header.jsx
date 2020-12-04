@@ -11,10 +11,10 @@ class NavBar extends Component {
                  <Navbar bg="dark" variant="dark">
                  <Navbar.Brand href="#home">Home</Navbar.Brand>
                  <Nav className="mr-auto">
-                 <Nav.Link href="#home">Destinations</Nav.Link>
+                 <Nav.Link href="#desti">Destinations</Nav.Link>
                  <Nav.Link href="#features">Promotions</Nav.Link>
-                 <Nav.Link href="#pricing">Circuit</Nav.Link>
-                <Nav.Link href="#pricing">Contact</Nav.Link>
+                 <Nav.Link href="#circuit">Circuits</Nav.Link>
+                <Nav.Link href="#contact">Contact</Nav.Link>
                 </Nav>
                 </Navbar>
             </div>
